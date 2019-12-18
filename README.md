@@ -1,0 +1,1 @@
+Put together another webpage for practice, I need to get more comfortable grouping items in CSS instead of repeating my code. I am starting to understand Box Model pages more, I'd like to start working towards making pages that are phone friendly from now on, hopefully my curriculum will be teaching that soon.
