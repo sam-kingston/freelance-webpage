@@ -36,7 +36,7 @@ body {
     text-transform: uppercase;
     font-size: 2.5rem;
     border-bottom: solid 2px azure;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .sub-main-header {
@@ -45,7 +45,7 @@ body {
     text-transform: uppercase;
     font-size: 1.1rem;
     position: relative;
-    font-weight: 400;
+    font-weight: 300;
     padding-top: 5px;
 
     animation: moveInBottom 4s ease-out;
@@ -55,7 +55,7 @@ body {
 .navbar {
     background-image:linear-gradient(to right bottom,
     rgba(108, 182, 165, 0.767), 
-    rgba(87, 109, 124, 0.827)), url(image/final.png);
+    rgba(87, 109, 124, 0.827)), url(img/final.png);
     background-size: cover;
     background-position: center;
     float: left;
@@ -95,14 +95,38 @@ body {
 }
 
 
+.buttons li {
+    float: right;
+    display: block;
+    font-size: 25px;
+    padding-right: 5px;
+
+}
+
 li {
     list-style: none;
-
 }
 
-a {
+a, li {
     text-decoration: none;
 }
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-octocat:hover {
+    color: #24292E;
+}
+
+.ion-social-twitch-outline:hover {
+    color: #9046FF;
+}
+
+i {
+    color: azure;
+}
+
 
 a:visited { 
     text-decoration: none; 
