@@ -1,0 +1,61 @@
+
+
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+   
+    
+}
+
+
+
+/* Small tablet to big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    
+}
+
+
+
+
+/* Small phones to small tablets: from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+
+    .main {
+        background-color: rgb(108, 182, 165);
+        width: 100%;
+        text-align: center;
+        font-family: 'Inria Serif', serif;
+        position: relative;
+        height: 50vh;
+        padding-top: 150px;
+    }
+
+    .navbar {
+        background-image:linear-gradient(to right bottom,
+        rgba(108, 182, 165, 0.767), 
+        rgba(87, 109, 124, 0.827)), url(img/final.png);
+        background-size: cover;
+        background-position: center;
+        width: 99.7%;
+        height: 45vh;
+        position: relative;
+        border-top: 2px solid azure;
+    }
+
+    .projects-box {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
