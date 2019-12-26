@@ -12,24 +12,32 @@
 }
 
 body {
-    padding: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Michroma', sans-serif;
     color: rgb(215, 228, 228);
+}
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
 
 
 .main {
-    background-color: rgb(108, 182, 165);
+    background-image: linear-gradient(
+    #6CB6A5, #6CB6A5);
     float: left;
     width: 75%;
     text-align: center;
-    font-family: 'Inria Serif', serif;
     position: relative;
-    height: 95vh;
+    height: 100vh;
     padding-top: 250px;
     border-right: solid 2px azure;
     color: azure;
+
 }
 
 .main-header {
@@ -38,30 +46,31 @@ body {
     text-transform: uppercase;
     font-size: 2.5rem;
     border-bottom: solid 2px azure;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .sub-main-header {
     display: block;
-    letter-spacing: .25rem;
+    letter-spacing: .35rem;
     text-transform: uppercase;
     font-size: 1.1rem;
     position: relative;
     font-weight: 300;
     padding-top: 5px;
-    animation: moveInBottom 1s ease-out;
-    -webkit-animation: moveInBottom 1s ease-out;
+    color: #fff;
+    animation: moveInBottom 5s ease-out;
+    -webkit-animation: moveInBottom 5s ease-out;
 }
 
 .navbar {
     background-image:linear-gradient(to right bottom,
-    rgba(108, 182, 165, 0.767), 
-    rgba(87, 109, 124, 0.827)), url(img/final.png);
+    rgba(0, 0, 0, 0.473), 
+    rgba(0, 0, 0, 0.534)), url(img/final.png);
     background-size: cover;
     background-position: center;
     float: left;
     width: 25%;
-    height: 95vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -157,3 +166,82 @@ a:hover, a:active {
     }
 }
 
+
+.about-me {
+    display: inline-block;
+    background-color: rgb(224, 250, 244);
+    color: black;
+    margin-top: 2px;
+    padding: 20px 20px;
+    
+}
+
+.about-me-header {
+    display: inline-block;
+    margin-bottom: 10px;
+    border-bottom: solid 2px black;
+}
+
+.author-image {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 200px;
+    width: auto;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    border: rgb(191, 235, 224) solid 20px;
+    background-color: rgb(192, 238, 227);
+    color: #000;
+}
+
+.portfolio-title {
+    display: inline-block;
+    border-bottom: solid 2px #000;
+    margin-bottom: 25px;
+}
+
+.portfolio a {
+    color: #000;
+    margin-bottom: 5px;
+}
+
+/* FORM */
+
+.section-form {
+    color: #6CB6A5;
+    padding: 20px 20px;
+}
+
+.section-form h2 {
+    display: inline-block;
+    border-bottom: solid 2px #6CB6A5;
+    margin-bottom: 25px;
+}
+
+/* BLOG */
+
+.section-blog {
+    padding: 20px 20px;
+}
+
+#blog-title {
+    margin-bottom: 50px;
+}
+
+.blog-date-subheading {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.blog-entry p {
+    margin-bottom: 10px;
+}

@@ -18,26 +18,26 @@
 
 
 /* Small phones to small tablets: from 481 to 767px*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 856px) {
 
     .main {
-        background-color: rgb(108, 182, 165);
+        background-color: rgb(215, 228, 228);
         width: 100%;
         text-align: center;
-        font-family: 'Inria Serif', serif;
         position: relative;
         height: 50vh;
         padding-top: 150px;
+        border-right: none;
     }
 
     .navbar {
-        background-image:linear-gradient(to right bottom,
-        rgba(108, 182, 165, 0.767), 
-        rgba(87, 109, 124, 0.827)), url(img/final.png);
+        background-image: linear-gradient(to right bottom,
+        rgba(0, 0, 0, 0.473), 
+        rgba(0, 0, 0, 0.534)), url(img/final.png);
         background-size: cover;
         background-position: center;
-        width: 99.7%;
-        height: 45vh;
+        width: 100%;
+        height: 50vh;
         position: relative;
         border-top: 2px solid azure;
     }
@@ -53,9 +53,68 @@
 
 
 /* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 585px) {
 
+    .main {
+        background-color: rgb(215, 228, 228);
+        width: 100%;
+        text-align: center;
+        position: relative;
+        height: 50vh;
+        padding-top: 150px;
+    }
 
+    .navbar {
+        background-image: linear-gradient(to right bottom,
+        rgba(0, 0, 0, 0.473), 
+        rgba(0, 0, 0, 0.534)), url(img/final.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        border-top: 2px solid azure;
+    }
+
+    .projects-box {
+        padding-top: 10px;
+ 
+    }
+
+    .buttons li {
+        float: right;
+        display: block;
+        font-size: 1.4rem;
+        padding-right: 5px;
+    
+    }
+
+    .main-header {
+        display: block;
+        letter-spacing: .5rem;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        border-bottom: solid 2px azure;
+        font-weight: 400;
+    }
+    
+    .sub-main-header {
+        display: block;
+        letter-spacing: .35rem;
+        text-transform: uppercase;
+        font-size: .67rem;
+        position: relative;
+        font-weight: 300;
+        padding-top: 5px;
+        color: #fff;
+        animation: moveInBottom 5s ease-out;
+        -webkit-animation: moveInBottom 5s ease-out;
+    }
+
+    .navbar {
+        font-size: .8rem;
+    }
+    
 
 }
 
