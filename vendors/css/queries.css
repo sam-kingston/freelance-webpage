@@ -74,6 +74,7 @@
         height: 50vh;
         position: relative;
         border-top: 2px solid azure;
+        padding-top: 25px;
     }
 
     .projects-box {
@@ -114,7 +115,40 @@
     .navbar {
         font-size: .8rem;
     }
+
+    /*About Me*/
+
+    .about-me {
+        font-size: .8rem;
+    }
     
+    .about-me-header {
+        font-size: 1.4rem;
+    
+    }
+
+    /*Portfolio*/
+
+    .portfolio-title {
+        font-size: 1.4rem;
+    }
+    
+    .portfolio a {
+        font-size: .8rem;
+    }
+    
+    /*Blog*/
+
+    .blog-entry p {
+        font-size: .8rem;
+    }
+
+
+    .section-form h2 {
+        display: inline-block;
+        margin-bottom: 25px;
+        font-size: 1.2rem;
+    }
 
 }
 
